@@ -1,11 +1,22 @@
-# compote-sales-analysis
-Sales analysis of compote products by name and price
+# Compote Product Sales Analysis 🍹
+
+## Objective
+Analyze sales performance of compote products across different names and price points to identify top-selling variants and pricing patterns.
+
 ## Dataset
-Bu analiz 438,826 sətir və 12 sütundan ibarət real market datasına əsaslanır.
+Product-level sales data filtered for compote category, including product name, unit price, and quantity sold.
 
-![Dataset Preview](data_preview.png)
+## Methods
+- Filtered dataset for compote category products
+- Calculated total revenue and unit sales per product variant
+- Analyzed the relationship between price point and sales volume
+- Ranked products by total revenue generated
 
-**Sütunlar:** `satish_kodu`, `mehsul_kodu`, `mehsul_ad`, `mehsul_kateqoriya`, 
-`mehsul_qiymet`, `satish_tarixi`, `endirim_kompaniya`, `bonus_kart`, 
-`magaza_ad`, `magaza_lat`, `magaza_long`
+## Key Finding
+Certain compote variants consistently outperform others in both volume and revenue, with price sensitivity varying by product name. Results can guide assortment decisions and pricing strategy for the category.
+
+## Tools & Technologies
+- **Language:** R
+- **Libraries:** dplyr, ggplot2
+- **Analysis type:** Product category deep-dive / pricing analysis
 
