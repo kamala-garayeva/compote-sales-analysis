@@ -8,3 +8,4 @@ Bu analiz 438,826 sətir və 12 sütundan ibarət real market datasına əsaslan
 **Sütunlar:** `satish_kodu`, `mehsul_kodu`, `mehsul_ad`, `mehsul_kateqoriya`, 
 `mehsul_qiymet`, `satish_tarixi`, `endirim_kompaniya`, `bonus_kart`, 
 `magaza_ad`, `magaza_lat`, `magaza_long`
+
